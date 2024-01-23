@@ -38,6 +38,7 @@ You may have noticed is that the current repository is a `foundry` project (I'm 
 ```bash
 cd src
 git submodule add $CHALLENGE_REPO
+cd ..
 ```
 
 where `$CHALLENGE_REPO` is the repository URL (in this case, `https://github.com/scalebit/zkCTF-sample1.git`, as provided in the [Setup](#setup) section).
