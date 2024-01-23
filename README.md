@@ -33,7 +33,9 @@ Can you make the isSolved() function return true?
 
 ## Solution
 
-You may have noticed is that the current repository is a `foundry` project (I'm assuming you have `foundry` installed). So, to proceed you must add the challenge repository as a submodule, preferably in the `src` directory:
+You may have noticed is that the current repository is a `foundry` project (I'm assuming you have `foundry` installed). Furthermore, it also assumes that you have `snarkjs` installed globally and that you have `python` version 3.6 or higher installed (to execute a utility function later on).
+
+To proceed you must add the challenge repository as a submodule, preferably in the `src` directory:
 
 ```bash
 cd src
